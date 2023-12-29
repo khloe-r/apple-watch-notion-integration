@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>NotionFinances Watch App.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>A38017972B3B91EE00900AA9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A380179D2B3B91EE00900AA9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A38017AF2B3B91F100900AA9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A38017B92B3B91F100900AA9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

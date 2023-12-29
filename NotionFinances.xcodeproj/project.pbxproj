@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A34BBCF02B3B9CD200873290 /* UpdateDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34BBCEF2B3B9CD200873290 /* UpdateDB.swift */; };
+		A380179F2B3B91EE00900AA9 /* NotionFinances Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A380179E2B3B91EE00900AA9 /* NotionFinances Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A38017A42B3B91EE00900AA9 /* NotionFinancesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38017A32B3B91EE00900AA9 /* NotionFinancesApp.swift */; };
+		A38017A62B3B91EE00900AA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38017A52B3B91EE00900AA9 /* ContentView.swift */; };
+		A38017A82B3B91F100900AA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A38017A72B3B91F100900AA9 /* Assets.xcassets */; };
+		A38017AB2B3B91F100900AA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A38017AA2B3B91F100900AA9 /* Preview Assets.xcassets */; };
+		A38017B52B3B91F100900AA9 /* NotionFinances_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38017B42B3B91F100900AA9 /* NotionFinances_Watch_AppTests.swift */; };
+		A38017BF2B3B91F100900AA9 /* NotionFinances_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38017BE2B3B91F100900AA9 /* NotionFinances_Watch_AppUITests.swift */; };
+		A38017C12B3B91F100900AA9 /* NotionFinances_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38017C02B3B91F100900AA9 /* NotionFinances_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A38017A02B3B91EE00900AA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A38017922B3B91EE00900AA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A380179D2B3B91EE00900AA9;
+			remoteInfo = "NotionFinances Watch App";
+		};
+		A38017B12B3B91F100900AA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A38017922B3B91EE00900AA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A380179D2B3B91EE00900AA9;
+			remoteInfo = "NotionFinances Watch App";
+		};
+		A38017BB2B3B91F100900AA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A38017922B3B91EE00900AA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A380179D2B3B91EE00900AA9;
+			remoteInfo = "NotionFinances Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A38017C72B3B91F100900AA9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A380179F2B3B91EE00900AA9 /* NotionFinances Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A34BBCEF2B3B9CD200873290 /* UpdateDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDB.swift; sourceTree = "<group>"; };
+		A38017982B3B91EE00900AA9 /* NotionFinances.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotionFinances.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A380179E2B3B91EE00900AA9 /* NotionFinances Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NotionFinances Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38017A32B3B91EE00900AA9 /* NotionFinancesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotionFinancesApp.swift; sourceTree = "<group>"; };
+		A38017A52B3B91EE00900AA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A38017A72B3B91F100900AA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A38017AA2B3B91F100900AA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A38017B02B3B91F100900AA9 /* NotionFinances Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NotionFinances Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38017B42B3B91F100900AA9 /* NotionFinances_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotionFinances_Watch_AppTests.swift; sourceTree = "<group>"; };
+		A38017BA2B3B91F100900AA9 /* NotionFinances Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NotionFinances Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38017BE2B3B91F100900AA9 /* NotionFinances_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotionFinances_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		A38017C02B3B91F100900AA9 /* NotionFinances_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotionFinances_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A380179B2B3B91EE00900AA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38017AD2B3B91F100900AA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38017B72B3B91F100900AA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A38017912B3B91EE00900AA9 = {
+			isa = PBXGroup;
+			children = (
+				A38017A22B3B91EE00900AA9 /* NotionFinances Watch App */,
+				A38017B32B3B91F100900AA9 /* NotionFinances Watch AppTests */,
+				A38017BD2B3B91F100900AA9 /* NotionFinances Watch AppUITests */,
+				A38017992B3B91EE00900AA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A38017992B3B91EE00900AA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A38017982B3B91EE00900AA9 /* NotionFinances.app */,
+				A380179E2B3B91EE00900AA9 /* NotionFinances Watch App.app */,
+				A38017B02B3B91F100900AA9 /* NotionFinances Watch AppTests.xctest */,
+				A38017BA2B3B91F100900AA9 /* NotionFinances Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A38017A22B3B91EE00900AA9 /* NotionFinances Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				A38017A32B3B91EE00900AA9 /* NotionFinancesApp.swift */,
+				A38017A52B3B91EE00900AA9 /* ContentView.swift */,
+				A38017A72B3B91F100900AA9 /* Assets.xcassets */,
+				A38017A92B3B91F100900AA9 /* Preview Content */,
+				A34BBCEF2B3B9CD200873290 /* UpdateDB.swift */,
+			);
+			path = "NotionFinances Watch App";
+			sourceTree = "<group>";
+		};
+		A38017A92B3B91F100900AA9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A38017AA2B3B91F100900AA9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A38017B32B3B91F100900AA9 /* NotionFinances Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A38017B42B3B91F100900AA9 /* NotionFinances_Watch_AppTests.swift */,
+			);
+			path = "NotionFinances Watch AppTests";
+			sourceTree = "<group>";
+		};
+		A38017BD2B3B91F100900AA9 /* NotionFinances Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A38017BE2B3B91F100900AA9 /* NotionFinances_Watch_AppUITests.swift */,
+				A38017C02B3B91F100900AA9 /* NotionFinances_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "NotionFinances Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A38017972B3B91EE00900AA9 /* NotionFinances */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38017C82B3B91F100900AA9 /* Build configuration list for PBXNativeTarget "NotionFinances" */;
+			buildPhases = (
+				A38017962B3B91EE00900AA9 /* Resources */,
+				A38017C72B3B91F100900AA9 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A38017A12B3B91EE00900AA9 /* PBXTargetDependency */,
+			);
+			name = NotionFinances;
+			productName = NotionFinances;
+			productReference = A38017982B3B91EE00900AA9 /* NotionFinances.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		A380179D2B3B91EE00900AA9 /* NotionFinances Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38017C42B3B91F100900AA9 /* Build configuration list for PBXNativeTarget "NotionFinances Watch App" */;
+			buildPhases = (
+				A380179A2B3B91EE00900AA9 /* Sources */,
+				A380179B2B3B91EE00900AA9 /* Frameworks */,
+				A380179C2B3B91EE00900AA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NotionFinances Watch App";
+			productName = "NotionFinances Watch App";
+			productReference = A380179E2B3B91EE00900AA9 /* NotionFinances Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A38017AF2B3B91F100900AA9 /* NotionFinances Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38017CB2B3B91F100900AA9 /* Build configuration list for PBXNativeTarget "NotionFinances Watch AppTests" */;
+			buildPhases = (
+				A38017AC2B3B91F100900AA9 /* Sources */,
+				A38017AD2B3B91F100900AA9 /* Frameworks */,
+				A38017AE2B3B91F100900AA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A38017B22B3B91F100900AA9 /* PBXTargetDependency */,
+			);
+			name = "NotionFinances Watch AppTests";
+			productName = "NotionFinances Watch AppTests";
+			productReference = A38017B02B3B91F100900AA9 /* NotionFinances Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A38017B92B3B91F100900AA9 /* NotionFinances Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38017CE2B3B91F100900AA9 /* Build configuration list for PBXNativeTarget "NotionFinances Watch AppUITests" */;
+			buildPhases = (
+				A38017B62B3B91F100900AA9 /* Sources */,
+				A38017B72B3B91F100900AA9 /* Frameworks */,
+				A38017B82B3B91F100900AA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A38017BC2B3B91F100900AA9 /* PBXTargetDependency */,
+			);
+			name = "NotionFinances Watch AppUITests";
+			productName = "NotionFinances Watch AppUITests";
+			productReference = A38017BA2B3B91F100900AA9 /* NotionFinances Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A38017922B3B91EE00900AA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					A38017972B3B91EE00900AA9 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					A380179D2B3B91EE00900AA9 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					A38017AF2B3B91F100900AA9 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = A380179D2B3B91EE00900AA9;
+					};
+					A38017B92B3B91F100900AA9 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = A380179D2B3B91EE00900AA9;
+					};
+				};
+			};
+			buildConfigurationList = A38017952B3B91EE00900AA9 /* Build configuration list for PBXProject "NotionFinances" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A38017912B3B91EE00900AA9;
+			productRefGroup = A38017992B3B91EE00900AA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A38017972B3B91EE00900AA9 /* NotionFinances */,
+				A380179D2B3B91EE00900AA9 /* NotionFinances Watch App */,
+				A38017AF2B3B91F100900AA9 /* NotionFinances Watch AppTests */,
+				A38017B92B3B91F100900AA9 /* NotionFinances Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A38017962B3B91EE00900AA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A380179C2B3B91EE00900AA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38017AB2B3B91F100900AA9 /* Preview Assets.xcassets in Resources */,
+				A38017A82B3B91F100900AA9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38017AE2B3B91F100900AA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38017B82B3B91F100900AA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A380179A2B3B91EE00900AA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34BBCF02B3B9CD200873290 /* UpdateDB.swift in Sources */,
+				A38017A62B3B91EE00900AA9 /* ContentView.swift in Sources */,
+				A38017A42B3B91EE00900AA9 /* NotionFinancesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38017AC2B3B91F100900AA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38017B52B3B91F100900AA9 /* NotionFinances_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38017B62B3B91F100900AA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38017C12B3B91F100900AA9 /* NotionFinances_Watch_AppUITestsLaunchTests.swift in Sources */,
+				A38017BF2B3B91F100900AA9 /* NotionFinances_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A38017A12B3B91EE00900AA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A380179D2B3B91EE00900AA9 /* NotionFinances Watch App */;
+			targetProxy = A38017A02B3B91EE00900AA9 /* PBXContainerItemProxy */;
+		};
+		A38017B22B3B91F100900AA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A380179D2B3B91EE00900AA9 /* NotionFinances Watch App */;
+			targetProxy = A38017B12B3B91F100900AA9 /* PBXContainerItemProxy */;
+		};
+		A38017BC2B3B91F100900AA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A380179D2B3B91EE00900AA9 /* NotionFinances Watch App */;
+			targetProxy = A38017BB2B3B91F100900AA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A38017C22B3B91F100900AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A38017C32B3B91F100900AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A38017C52B3B91F100900AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NotionFinances Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NotionFinances;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khloer.NotionFinances.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		A38017C62B3B91F100900AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NotionFinances Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NotionFinances;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khloer.NotionFinances.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		A38017C92B3B91F100900AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 526AH24QDY;
+				INFOPLIST_KEY_CFBundleDisplayName = NotionFinances;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khloer.NotionFinances;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A38017CA2B3B91F100900AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 526AH24QDY;
+				INFOPLIST_KEY_CFBundleDisplayName = NotionFinances;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khloer.NotionFinances;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A38017CC2B3B91F100900AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.khloer.NotionFinances-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotionFinances Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NotionFinances Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		A38017CD2B3B91F100900AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.khloer.NotionFinances-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotionFinances Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NotionFinances Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		A38017CF2B3B91F100900AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.khloer.NotionFinances-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "NotionFinances Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		A38017D02B3B91F100900AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.khloer.NotionFinances-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "NotionFinances Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A38017952B3B91EE00900AA9 /* Build configuration list for PBXProject "NotionFinances" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38017C22B3B91F100900AA9 /* Debug */,
+				A38017C32B3B91F100900AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38017C42B3B91F100900AA9 /* Build configuration list for PBXNativeTarget "NotionFinances Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38017C52B3B91F100900AA9 /* Debug */,
+				A38017C62B3B91F100900AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38017C82B3B91F100900AA9 /* Build configuration list for PBXNativeTarget "NotionFinances" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38017C92B3B91F100900AA9 /* Debug */,
+				A38017CA2B3B91F100900AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38017CB2B3B91F100900AA9 /* Build configuration list for PBXNativeTarget "NotionFinances Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38017CC2B3B91F100900AA9 /* Debug */,
+				A38017CD2B3B91F100900AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38017CE2B3B91F100900AA9 /* Build configuration list for PBXNativeTarget "NotionFinances Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38017CF2B3B91F100900AA9 /* Debug */,
+				A38017D02B3B91F100900AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A38017922B3B91EE00900AA9 /* Project object */;
+}
